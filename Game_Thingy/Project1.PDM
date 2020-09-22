@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\favorites.txt=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Game Thingy.exe=Yes
+C:\WINNT\system32\MSVBVM60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\favorites.txt=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Game Thingy.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\favorites.txt=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Game Thingy.exe=No
+C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\favorites.txt=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Game Thingy
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Game Thingy
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Game Thingy]
+Icon1="Game Thingy.exe"
+Title1=Game Thingy
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Package
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Package\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\cstrike server stuff\End\Package\Game Thingy.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
